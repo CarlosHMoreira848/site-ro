@@ -1,0 +1,189 @@
+body {
+
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+img {
+	width: 20%;
+	height: 20%;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+nav ul {
+	position: absolute;
+	top: 55px;
+	right: 100px;
+}
+
+nav li {
+	display: inline;
+	margin-left: 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FE8E19;
+	text-decoration: underline;
+}
+
+.terapia {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.terapia li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.terapia li:hover {
+	border-color: #FD8E19;
+}
+
+.terapia li:active {
+	border-color: #000000;
+}
+
+.terapia li:hover h2 {
+	font-size: 33px;
+}
+
+.prog {
+	background-image: url("dia.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.ont {
+	background-image: url("subida.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.prec {
+	background-image: url("calice.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.terapia h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.descricao {
+	font-size: 20px;
+}
+
+button {
+	font-size: 20px;
+	font-weight: 300%;
+	margin-top: 10px;
+}
+
+button:hover {
+	font-size: 25px;
+}
+
+button:active {
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	background: #00FF7F;
+	padding: 40px 0;
+}
+
+.direitos {
+	font-size: 15px;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.config-padrao {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
